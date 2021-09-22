@@ -1,0 +1,105 @@
+//font-family: 'Montserrat', sans-serif;
+@font-face {
+    font-family: 'Nordin';
+    src: url('../fonts/Nordin-Regular.eot');
+    src: local('Nordin Regular'), local('Nordin-Regular'),
+        url('../fonts/Nordin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nordin-Regular.woff2') format('woff2'),
+        url('../fonts/Nordin-Regular.woff') format('woff'),
+        url('../fonts/Nordin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bold */
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'),
+         url('../fonts/Gilroy-Bold.ttf') format('truetype'),
+         url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Regular */
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'),
+         url('../fonts/Gilroy-Regular.ttf') format('truetype'),
+         url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Medium */
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'),
+         url('../fonts/Gilroy-Medium.ttf') format('truetype'),
+         url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* SemiBold */
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy');
+    font-weight: 600;
+    font-style: normal;
+}
+//SF Pro Display
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-Light.eot');
+    src: local('SF Pro Display Light'), local('../fonts/SFProDisplay-Light'),
+        url('../fonts/SFProDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFProDisplay-Light.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Light.woff') format('woff'),
+        url('../fonts/SFProDisplay-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-Thin.eot');
+    src: local('SF Pro Display Thin'), local('../fonts/SFProDisplay-Thin'),
+        url('../fonts/SFProDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFProDisplay-Thin.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Thin.woff') format('woff'),
+        url('../fonts/SFProDisplay-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-Bold.eot');
+    src: local('SF Pro Display Bold'), local('../fonts/SFProDisplay-Bold'),
+        url('../fonts/SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFProDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Bold.woff') format('woff'),
+        url('../fonts/SFProDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-Regular.eot');
+    src: local('SF Pro Display Regular'), local('../fonts/SFProDisplay-Regular'),
+        url('../fonts/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFProDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Regular.woff') format('woff'),
+        url('../fonts/SFProDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

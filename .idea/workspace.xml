@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3922bb8-fecc-4b3d-b1bd-8b521c2d4797" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1wep93YniQZRnnGfEPYyceRBJx5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MOTORSBOAT_del/css" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xopow\OneDrive\Рабочий стол\MOTORSBOAT\#src\fonts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xopow\OneDrive\Рабочий стол\MOTORSBOAT\MOTORSBOAT_del\css" />
+      <recent name="C:\Users\xopow\OneDrive\Рабочий стол\MOTORSBOAT\MOTORSBOAT_del\js" />
+      <recent name="C:\Users\xopow\OneDrive\Рабочий стол\MOTORSBOAT\MOTORSBOAT_del\fonts" />
+      <recent name="C:\Users\xopow\OneDrive\Рабочий стол\MOTORSBOAT\#src\fonts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" editBeforeRun="true" useFirstLineBreakpoints="true">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3922bb8-fecc-4b3d-b1bd-8b521c2d4797" name="Default Changelist" comment="" />
+      <created>1628828758312</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628828758312</updated>
+      <workItem from="1628828779978" duration="6700000" />
+      <workItem from="1629004010594" duration="6925000" />
+      <workItem from="1629084530370" duration="11916000" />
+      <workItem from="1629868374940" duration="3384000" />
+      <workItem from="1629955758552" duration="4589000" />
+      <workItem from="1630045755942" duration="4891000" />
+      <workItem from="1630646014407" duration="15088000" />
+      <workItem from="1630725565773" duration="3090000" />
+      <workItem from="1631006093586" duration="2437000" />
+      <workItem from="1631266848615" duration="893000" />
+      <workItem from="1631784556411" duration="168000" />
+      <workItem from="1631932104929" duration="42000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="322" y="182" width="722" height="429" key="EditFileWatcherDialog" timestamp="1628829974914">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="322" y="182" width="722" height="429" key="EditFileWatcherDialog/0.0.1366.768@0.0.1366.768" timestamp="1628829974914" />
+    <state x="186" y="28" key="SettingsEditor" timestamp="1631784728061">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="186" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1631784728061" />
+    <state x="391" y="210" key="com.intellij.ide.util.TipDialog" timestamp="1631932108214">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="391" y="210" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1631932108214" />
+    <state x="346" y="89" key="search.everywhere.popup" timestamp="1631784635410">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1631784635410" />
+  </component>
+</project>
