@@ -1,0 +1,66 @@
+@import "addidions/variable.scss";
+.footer{
+  margin-top: 4%;
+  border-top:1px solid #A4A4A4;
+  margin-left:auto;
+  margin-right: auto;
+  max-width:1440px - 100px*2;
+  &__column{
+  @include media-landscape-phones(){
+    display: none;
+  }
+  }
+  & picture,
+  & source,
+  & img{
+    max-width: 276px;
+    width: 100%;
+  }
+  &__main{
+    padding:82px;
+    display: flex;
+    justify-content: space-between;
+   
+    h2{
+      font-size: 22px;
+      line-height: 23px;
+    }
+    ul{
+      padding: 20px;
+    }
+    ul li{
+      margin-top:10px;
+    }
+    a:visited{
+      color:#363636;
+    }
+
+  }
+  &__address{
+    color:#363636;
+    }
+  &__links{
+
+    margin-right: -10%;
+    margin-left: -10%;
+    margin-top: 20%;
+  }
+  &__down{
+    justify-content: space-between;
+    color: #FFFFFF;
+    background-color: #001420;
+    @extend .footer-down;
+    display: flex;
+    align-items: center;
+  }
+  &__click-up{
+    @extend .footer-down;
+    color: #FFFFFF;
+    background-color: #001420;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}

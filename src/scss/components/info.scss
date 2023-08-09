@@ -1,0 +1,25 @@
+
+.info {
+
+  a:visited{
+    color: initial;
+  }
+
+  h3{
+    @include fount-info-h3;
+  }
+  &__main{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  &__messangers{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
+  &__button {
+    margin: 14px;
+  }
+}
+

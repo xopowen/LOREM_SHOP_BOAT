@@ -1,0 +1,22 @@
+.burger {
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  height: max-content;
+  &_active{
+    display: block;
+    animation:burger_show 1s normal ;
+  }
+}
+@keyframes burger_show {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}

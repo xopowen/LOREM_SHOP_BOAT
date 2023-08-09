@@ -1,0 +1,59 @@
+
+.history-orders {
+  padding-top: 8%;
+  &__list{
+    padding-top: 8%;
+  }
+  &__item {
+    position: relative;
+    padding: 40px 0px;
+    border-bottom: 1px solid #BBB;
+    border-top: 1px solid #BBB;
+
+    &_active{
+
+      .history-orders__basket {
+        display: block;
+      }
+      .history-orders__body{
+        display: none;
+      }
+    }
+
+  }
+  &__body{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    gap: 5%;
+
+
+
+    @include font-history-orders-body;
+
+  }
+  &__name {
+  }
+
+  &__date {
+    flex-grow: 2;
+  }
+
+  &__status {
+
+  }
+
+  &__button {
+    background: none;
+    border: none;
+    width: 14px;
+    font-size: 30px;
+  }
+
+  &__basket {
+    display: none;
+    width: 100%;
+  }
+}
+

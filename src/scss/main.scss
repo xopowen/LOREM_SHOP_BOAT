@@ -1,0 +1,77 @@
+@import "components/fonts.scss";
+@import "components/stylesheet.scss";
+@import "components/style_zeroing.scss";
+@import "components/container";
+@import "components/articles";
+@import "components/card";
+@import "components/categories";
+@import "components/dop-info";
+@import "components/feedback";
+@import "components/footer";
+@import "components/form-min";
+@import "components/header";
+@import "components/icons-networks";
+@import "components/menu-burrger";
+@import "components/menu";
+@import "components/pagination";
+@import "components/product";
+@import "components/reviews";
+@import "components/top-block";
+@import "components/messangers.scss";
+@import "components/transition";
+@import "components/addidions/variable";
+@import "components/address.scss";
+@import "components/burger";
+@import "components/main-icons";
+@import "components/start";
+@import "components/info";
+@import "components/over-page";
+@import "components/text-blog.scss";
+@import "components/basket.scss";
+@import "components/list-forms.scss";
+@import "components/delivety-pay";
+@import "components/contacts.scss";
+@import "components/gray-table";
+@import "components/employees";
+@import "components/brent";
+@import "components/history-orders";
+button{
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  font-family: SF Pro Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23px;
+}
+.big-strip{
+  height: 105px;
+  max-width: 1440px;
+  width: 100%;
+  position: absolute;
+  padding: 0 12%;
+}
+
+body{
+  max-width: 1440px;
+  margin: auto;
+  overflow-x: hidden;
+  position: relative;
+
+}
+main{
+  min-height: 100vh;
+}
+
+

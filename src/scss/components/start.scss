@@ -1,0 +1,35 @@
+@import "addidions/variable.scss";
+
+.start {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  background-image: url("../img/fon-header.png");
+  max-height: 900px;
+  height: 100vh;
+  grid-auto-columns: 80%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: $white_color;
+  grid-template-rows: 28% 15% 25% auto;
+  background-size: auto;
+
+  &__button{align-self: end;
+    justify-self: center;
+    border: 1px solid $white_color;
+  }
+  h1{
+    align-self: end;
+    @include really-big-text;
+  }
+
+  &__info {
+    align-self: end;
+    justify-content: end;
+    margin-bottom: 10%;
+  }
+  &__add-name{
+    align-self: end;
+    @include font-add-name;
+  }
+}

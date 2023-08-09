@@ -1,0 +1,30 @@
+@import "addidions/variable.scss";
+.main-icons {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: min(39px,10%) ;
+  &__search {
+    display: flex;
+    align-content: center;
+    gap: 8%;
+    & input{
+      @extend %header-search;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #FFFFFF;
+      color: #FFFFFF;
+      width: 100%;
+    }
+  }
+  &__item {
+    width: 27px;
+    height: 27px;
+    &:hover,
+    &:active,
+    &:focus{
+      @include transform-scale;
+    }
+
+  }
+}

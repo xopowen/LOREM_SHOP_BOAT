@@ -1,0 +1,23 @@
+.gray-table{
+  @include font-contacts;
+  background: rgba(0, 0, 0, 0.48);
+  color: $white_color;
+  h3{
+    text-align: center;
+    color: $white_color;
+  }
+  address{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+.right-side{
+  margin-top: 4%;
+  display: flex;
+  justify-content: right;
+  article{
+    max-width: 668.396px;
+  }
+
+}

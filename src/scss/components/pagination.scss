@@ -1,0 +1,33 @@
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin:21px;
+
+  &__active{
+
+  }
+  // .pagination__body
+  &__body {
+    color: #363636;
+    a:visited{
+      color:#363636;
+    }
+    li{
+      margin:7px;
+      display: inline;
+      font-family: var(--font-family-Montserrat);
+      line-height: 34px;
+    }
+  }
+  // .pagination__arrow
+  &__arrow {
+    margin:25px;
+  }
+  &__arrow_no-active {
+    a:visited{
+      color:#ABB2B4;
+    }
+
+  }
+}

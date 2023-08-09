@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('../components/head.html')
+<body>
+@@include('../components/header.html',{icon:true,header__gray:'header_gray',rightIcons:'set_profile'})
+<main>
+    @@include('../components/burger.html')
+    @@include("../components/login-form.html")
+
+    <section class="container history-orders">
+        <h2>History of orders:</h2>
+        <div class="history-orders__list">
+            <article class="history-orders__item">
+                <div class ="history-orders__body" >
+                    <span class="history-orders__name">order 5331</span>
+                    <span class="history-orders__date">27/01/2001</span>
+                    <span class="history-orders__status">Delivered</span>
+                    <button class="history-orders__button">+</button>
+                </div>
+                <div class="basket history-orders__basket">
+                    <div class="basket__item ">
+                        <p class="basket__cells basket__cells_bottom-border"><span>Img</span><span>Name</span><span>Count</span><span>Price</span></p>
+                        <div class="basket__cells">
+                            <img src="@@webRoot/static/img/1-200x200%202.png">
+                            <p><b>Lorem ipsum dolor sit amet.</b></p>
+                            <div><p class="basket__count">1</p></div>
+                            <p ><b><span>43</span><span>000</span><span>р.</span></b></p>
+                        </div>
+
+                    </div>
+                </div>
+            </article>
+            <article class="history-orders__item">
+                <div class ="history-orders__body" >
+                    <span class="history-orders__name">order 5331</span>
+                    <span class="history-orders__date">27/01/2001</span>
+                    <span class="history-orders__status">Delivered</span>
+                    <button class="history-orders__button">+</button>
+                </div>
+                <div class="basket history-orders__basket">
+                    <div class="basket__item ">
+                        <p class="basket__cells basket__cells_bottom-border"><span>Img</span><span>Name</span><span>Count</span><span>Price</span></p>
+                        <div class="basket__cells">
+                            <img src="@@webRoot/static/img/1-200x200%202.png">
+                            <p><b>Lorem ipsum dolor sit amet.</b></p>
+                            <div><p class="basket__count">1</p></div>
+                            <p ><b><span>43</span><span>000</span><span>р.</span></b></p>
+                        </div>
+
+                    </div>
+                </div>
+            </article>
+            <article class="history-orders__item">
+                <div class ="history-orders__body" >
+                    <span class="history-orders__name">order 5331</span>
+                    <span class="history-orders__date">27/01/2001</span>
+                    <span class="history-orders__status">Delivered</span>
+                    <button class="history-orders__button">+</button>
+                </div>
+                <div class="basket history-orders__basket">
+                    <div class="basket__item ">
+                        <p class="basket__cells basket__cells_bottom-border"><span>Img</span><span>Name</span><span>Count</span><span>Price</span></p>
+                        <div class="basket__cells">
+                            <img src="@@webRoot/static/img/1-200x200%202.png">
+                            <p><b>Lorem ipsum dolor sit amet.</b></p>
+                            <div><p class="basket__count">1</p></div>
+                            <p ><b><span>43</span><span>000</span><span>р.</span></b></p>
+                        </div>
+
+                    </div>
+                </div>
+            </article>
+        </div>
+
+    </section>
+
+</main>
+@@include('../components/footer.html')
+</body>
+</html>
+<!DOCTYPE html>

@@ -1,0 +1,54 @@
+@import "addidions/variable.scss","addidions/mixins";
+.reviews {
+  margin-top: 10%;
+  @include reviews-text;
+  color: #50626C;
+
+  // .reviews__body
+  &__body {
+    margin-top: 10%;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    @include media-landscape-phones() {
+      & {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+  }
+
+  // .reviews__card
+  &__card {
+    padding: 40px 40px;
+    max-width: 364px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+
+
+    &:nth-child(2) {
+      transform: scale(1.1);
+    }
+    @include media-landscape-phones(){
+      &:nth-child(2){
+        transform:scale(1);
+      }
+    }
+    // .reviews__head
+    &__head {
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 23px;
+    }
+
+    // .reviews__text
+    &__text {
+      font-size: 15px;
+      line-height: 34px;
+
+    }
+  }
+}

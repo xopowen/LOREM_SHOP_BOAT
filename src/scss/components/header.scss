@@ -1,0 +1,76 @@
+@import "addidions/variable";
+.header {
+  color: #FFFFFF;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  &_gray{
+    background-color: gray;
+    position: relative !important;
+  }
+  &__address{
+    justify-content: start !important;
+  }
+  &__menu{
+    grid-column: span 3;
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    li{
+      border: 1px solid $black_color;
+      padding: 5px;
+      opacity: 0.5;
+      background: $white_color;
+      &:hover{
+        opacity: 1;
+        transition: 0.3s;
+      }
+      a:visited{
+        color: initial;
+      }
+    }
+  }
+
+  &__left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    gap: 60px;
+
+        picture,
+          source,
+          img{
+          cursor: pointer;
+        }
+
+      picture:hover,
+        source:hover,
+        img:hover{
+          transform: scale(1.1) ;
+          transition: 0.2s;
+        }
+
+  }
+
+
+
+  picture,
+    source,
+    img,
+  &__icon {
+  max-width: 134px;
+  align-self: center;
+    justify-self: center;
+  }
+
+  &__right {
+    & .main-icons__item{
+      cursor: pointer;
+    }
+  }
+
+}

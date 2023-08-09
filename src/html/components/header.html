@@ -1,0 +1,36 @@
+<header class=" big-strip header @@header__gray">
+    <div class="header__left">
+        <img id="burger-turn-on" src="@@webRoot/static/img/icons/burger.svg" title="burger" alt="burger">
+        @@if ( icon === true){
+            @@include('address_phone.html',{addClass:"header__address"})
+        }
+    </div>
+    <div>
+        @@if ( icon === true){
+        <img class="header__icon" src="@@webRoot/static/img/main-icon.png" alt="Logo">
+        }
+    </div>
+    <div class="header__right main-icons">
+        <div class="main-icons__search" title="search">
+            <label><img class="main-icons__item"  src="@@webRoot/static/img/icons/search.svg" alt="search"></label>
+            <input type="text" placeholder="Поиск" class="main-text">
+        </div>
+        @@if ( rightIcons === 'set_door'){
+            @@include("../components/icons_door_carazina.html")
+        }
+        @@if ( rightIcons === 'set_profile'){
+            @@include("../components/icons_profile_notebook.html")
+        }
+    </div>
+    <ul class="header__menu">
+        <li><a href="@@webRoot/index.html">Main</a></li>
+        <li><a href="@@webRoot/contacts.html">Contacts</a></li>
+        <li><a href="@@webRoot/about us.html">About us</a></li>
+        <li><a href="@@webRoot/ordering.html">Ordering</a></li>
+        <li><a href="@@webRoot/delivery pay.html">Delivery and pay</a></li>
+        <li><a href="@@webRoot/registration.html">Registration</a></li>
+        <li><a href="@@webRoot/change personal info.html">Change personal info</a></li>
+        <li><a href="@@webRoot/basket.html">Basket</a></li>
+        <li><a href="@@webRoot/history orders.html">History of orders</a></li>
+    </ul>
+</header>

@@ -38,3 +38,12 @@ svg-sprite - плагин работы с svg файлами. спрайтовы
 gulp-ttf2woff
 gulp-ttf2woff2
 fonter - конвертирует шрифты
+
+gulp-version-number//решение проблемы кеширования
+//работы с ошибками
+gulp-replace - поиск и змаўчанн
+gulp-plumber - обработка ошибок
+gulp-notify - сообщениия (подксказки)
+
+//js
+wabpack wabpack-stream - работа с js

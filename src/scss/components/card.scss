@@ -1,0 +1,32 @@
+@import "addidions/variable.scss";
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // .card__header
+   &__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  // .card__head
+  &__head {
+    margin-top:32px;
+    text-align: center;
+  }
+  // .card__footer
+  &__footer {
+    margin-top: 32px;
+    display:flex;
+    justify-content: center;
+  }
+  // .card__button
+  &__button {
+    height: 37.58px;
+    width:100%;
+    background: #50626C;
+  }
+
+}

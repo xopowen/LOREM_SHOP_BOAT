@@ -1,0 +1,82 @@
+.basket {
+  text-align: center;
+  &_micro{
+    background-color: $white_color;
+    max-width: 635px;
+    max-height: 488px;
+    margin: 0 15px;
+    .basket__item{
+      border-bottom: 1px solid;
+    }
+
+  }
+  h3{
+    text-align: center;
+  }
+  &__subtext {
+
+  }
+
+  &__item {
+  }
+    picture,
+      source,
+      img{
+      width: 100%;
+    }
+
+
+  &__cells {
+    display: grid;
+    grid-template-columns: 20% 60% 10% 10%;
+    align-items: center;
+    padding: 19px 0;
+    &_bottom-border{
+      border-bottom: 1px solid;
+    }
+  }
+
+  &__count {
+    background-color: #F1F1F1;
+    width: min-content;
+    padding: 0 23px;
+    margin: auto;
+    color: $black_color;
+  }
+
+  &__sum-price {
+    @include font-category-h2;
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+  }
+
+  &__addition{
+    margin-top: 4%;
+    text-align: start;
+    p{
+      margin: 6% 0;
+    }
+  }
+  &__checkout{
+    text-align: start;
+    margin-top: 4%;
+    p{
+      margin: 15px 0;
+    }
+    button{
+      margin-top:4%;
+    }
+  }
+  &__buttons{
+    display: flex;
+
+    gap: 2%;
+  }
+  button{
+    font-size: 15px;
+    line-height: 34px;
+    background: #50626C;
+    color:#ffffff;
+  }
+}

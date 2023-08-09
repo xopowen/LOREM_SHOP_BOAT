@@ -1,0 +1,68 @@
+@import "addidions/variable.scss";
+.articles {
+  margin-top:8%;
+  picture,
+  source,
+  img{
+    width: 352px;
+    height: 202px;
+  }
+  &__body{
+
+    margin-top:10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;
+  }
+
+  &__card:nth-child(3n){
+    flex-grow: 1;
+    color :$white_color;
+    grid-column:span 2;
+    max-width:100%;
+    background-color: $gray_card_color;
+    picture{
+      margin-top:0px;
+    }
+  }
+
+
+  // .articles__card
+  &__card {
+    font-family: Gilroy;
+    font-style: normal;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 29px;
+    max-width:565px;
+    width: 100%;
+    padding:50px;
+    color: #50626C;
+    picture{
+      margin-top: -27%;
+    }
+  }
+  // .articles__head
+  &__head {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+  }
+  // .articles__text
+  &__text {
+    margin-top:12px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+
+  }
+  .card {
+    // .card__header
+    &__header {}
+    // .card__body
+    &__body {
+      margin-top: 21px;
+    }
+  }
+}

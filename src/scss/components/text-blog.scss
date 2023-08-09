@@ -1,0 +1,30 @@
+@import "addidions/variable","addidions/mixins";
+.text-blog{
+  @include font-form;
+  border: 1px solid #E4E5E4;
+  box-sizing: border-box;
+  color: $gray_color;
+  padding: 47px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  h3{
+    font-size: 25px;
+    line-height: 25px;
+    text-align: start;
+    color: #606060;
+    margin-bottom: -12px;
+  }
+  &__blog{
+
+  }
+  li{
+    list-style-position: inside;
+    margin-left: 10px;
+  }
+  .text-blog__not-element-list::marker{
+    color: $white_color;
+  }
+
+}
+

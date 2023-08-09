@@ -1,0 +1,24 @@
+@import "addidions/mixins.scss","addidions/variable.scss";
+.feedback {
+  margin-top:8%;
+  padding:50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  & form{
+    padding:40px 20px;
+    max-width:440px;
+    width: 100%;
+  }
+
+  & picture,
+  & source,
+  & img{
+    width: 399px;
+
+    @include media-landscape-phones{
+      &{ width: 100%;}
+    }
+  }
+}

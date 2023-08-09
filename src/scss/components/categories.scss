@@ -1,0 +1,82 @@
+@import "addidions/variable.scss","addidions/mixins.scss";
+.categories {
+
+  margin-top: 10%;
+  h2{
+    @include font-category-h2;
+  }
+  &__img,
+  picture,
+  source,
+  img
+  {
+
+    position: absolute;
+    width: 102%;
+    height: 101%;
+    pointer-events: none;
+    margin-left: -1%;
+  }
+
+
+  &__img:hover ,&__card:hover &__img{
+    transform:translateX(100%);
+    transition: 3s;
+  }
+  @include media-landscape-phones(){
+    &__img,
+    & picture,
+    & source,
+    & img{
+      animation: open-close 5s ease infinite;
+      animation-delay: 3s;
+    }
+    @keyframes open-close {
+      0%{transform:translateX(0%);}
+      50%{transform:translateX(100%);}
+      100%{transform:translateX(0%);}
+    }
+  };
+
+  // .categories__body
+  &__body {
+    margin: 7% 0px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(373px, 1fr));
+    grid-gap:16px;
+  }
+  // .categories__card
+  &__card {
+    overflow:hidden;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    .card__header{
+      margin-top:34px;
+    }
+    max-width: 373px;
+    .card__body ul{
+      max-width:30%;
+      width:100% ;
+      margin:16px auto;
+    }
+    .card__body ul li{
+      text-align:left;
+      list-style:disc;
+    }
+    .card__footer{
+      margin-bottom:24px;
+    }
+
+  }
+  // .categories__head
+  &__head {
+    @include font-category-head;
+    display: flex;
+    align-items: center;
+    svg{
+      margin:15px;
+    }
+  }
+}

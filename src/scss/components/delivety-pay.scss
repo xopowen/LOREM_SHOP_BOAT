@@ -1,0 +1,38 @@
+.delivery-pay{
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: min(50px,5vh);
+  &__subhead{
+    font-size: 25px;
+    line-height: 25px;
+    text-align: start;
+    color: #606060;
+    margin: 34px 0;
+  }
+  &__main-info {
+    margin-top: -3%;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 55% 45%;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    @include media-landscape-phones(){
+      grid-template-columns:auto;
+      grid-template-rows: repeat(auto-fill,1fr);
+      margin-top: 8%;
+    }
+
+  }
+
+  &__big-blog{
+    grid-row: span 2;
+  }
+
+    picture,
+      source,
+      img{
+      width:100%;
+    }
+}

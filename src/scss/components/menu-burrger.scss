@@ -1,0 +1,43 @@
+
+.menu-burger {
+  // .menu-burger__menu
+  .fa-times:active,
+  .fa-bars:active{
+    transition: 0.5s;
+    transform:scale(1.5);
+  }
+  .fa-times{
+    position: absolute;
+    top: -50px;
+  }
+  &__menu {
+    display:flex;
+    position:absolute;
+    left:-120% ;
+  }
+
+  &__menu_active {
+    left: 40px;
+    top: 90px;
+    animation: menu_active 0.5s  ease-in-out;
+  }
+  @keyframes menu_active {
+    0%{
+      left:-120% ;
+    }
+    100%{
+      left:40px;
+    }
+  }
+  &__fons{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    z-index: -1;
+  }
+  &__fons_active{
+    background: #FFFFFF;
+  }
+
+}

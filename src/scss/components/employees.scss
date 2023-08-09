@@ -1,0 +1,51 @@
+@import "addidions/variable";
+.employees {
+  @include font-employees;
+  margin-top: 8%;
+  text-align: center;
+  h2{text-align: start}
+  &__cards {
+    margin-top: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+    justify-content:space-between;
+  }
+  &__card {
+   max-width: 522px;
+    max-height: 574px;
+    width: 100%;
+    padding: 2% 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    border: 1px solid #272727;
+    .card__header {
+      picture,
+      source,
+      img{
+        width: 402px;
+        border-radius: 15px;
+      }
+
+    }
+
+    .card__body{
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+  }
+  &__address{
+    max-width: 275px;
+    text-wrap: none;
+    margin: auto;
+  }
+  &__messangers{
+  display: flex;
+    justify-content: center;
+  }
+
+}
+
