@@ -24,9 +24,7 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-sass-import-once": "^2.0.2",
     "webpack": "^5.88.2",
-    "webpack-stream": "^7.0.0"
-  },
-  "dependencies": {
+    "webpack-stream": "^7.0.0",
     "@babel/core": "^7.22.9",
     "@babel/preset-env": "^7.22.9",
     "@babel/register": "^7.22.5",
@@ -59,6 +57,9 @@
     "gulp-webp-html": "^1.0.2",
     "gulp-webp-html-nosvg": "^1.1.1",
     "sass": "^1.64.1",
+  },
+  "dependencies": {
+
     "swiper": "^10.1.0"
   }
 }
