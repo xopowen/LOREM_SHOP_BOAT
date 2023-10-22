@@ -800,7 +800,7 @@ span{
 	-webkit-box-pack:center;
 	-ms-flex-pack:center;
 	justify-content:center;
-	gap:10px
+	gap:1px
 }
 .header__menu li{
 	border:1px solid 363636;
