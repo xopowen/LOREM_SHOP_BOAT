@@ -31,6 +31,9 @@
     grid-template-columns: 20% 60% 10% 10%;
     align-items: center;
     padding: 19px 0;
+    @include media-landscape-phones{
+      grid-template-columns: 20% 30% auto auto;
+    }
     &_bottom-border{
       border-bottom: 1px solid;
     }

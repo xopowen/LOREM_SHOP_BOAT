@@ -50,10 +50,9 @@ button{
 
 h2{
   font-family: SF Pro Display;
-  font-size: 40px;
+  font-size: clamp(20px,7vw,40px);
   font-style: normal;
   font-weight: 600;
-  line-height: 23px;
 }
 .big-strip{
   height: 105px;
@@ -66,6 +65,7 @@ h2{
 body{
   max-width: 1440px;
   margin: auto;
+
   overflow-x: hidden;
   position: relative;
 
