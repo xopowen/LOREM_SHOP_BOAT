@@ -2,10 +2,11 @@ const notify = require("gulp-notify");
 
 const _build = process.argv.includes("-b")
 const _dev = !process.argv.includes("-b")
-
+const _min = process.argv.includes("-min")
 module.exports = {
     build:_build,
     dev:_dev,
+    min:_min,
     plumberHTML:{
         errorHandler:notify.onError((error)=>({
             title:"HTML",
@@ -46,11 +47,19 @@ module.exports = {
         collapseWhitespace:_build||false
     },
     webpackStream:{
+        optimization: {
+            minimize: _min||false,
+        },
         mode: _build ?'production':'development'//[development,production],
     },
     imageMin:{verbose:_build||false},
     fonter:{
         formats:['ttf','woff','eot','svg']
+    },
+    imgRetinizeOption:{
+        filter:false,
+        flags:{1: '', 2: '@2x', 4: '@4x'},
+        flagsOut:{1: '', 2: '@2x', 4: '@4x'}
     }
 };
 

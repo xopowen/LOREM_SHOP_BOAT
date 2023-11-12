@@ -7,6 +7,7 @@ const options = require('../optionsPlagins')
 const newer = require('gulp-newer')//предотвращает лишнее сжатие
 const fonter = require('gulp-fonter')
 const tt2woff2 = require('gulp-ttf2woff2')
+
 const fonts = (assets, build)=>{
     console.log('work with font'+`:${assets}->${build}`)
     return src(assets)
