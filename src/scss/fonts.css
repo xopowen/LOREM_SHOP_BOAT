@@ -4,12 +4,12 @@
 	font-weight: 700;
 	font-display: swap;
 	src: local(''),
-	url("../font/Gilroy-Bold.eot"),
-	url("../font/Gilroy-Bold.ttf") format("truetype"),
-	url("../font/Gilroy-Bold.svg") format("svg"),
-	url("../font/Gilroy-Bold.eot") format("embedded-opentype"),
-	url("../font/Gilroy-Bold.woff2") format("woff2"),
-	url("../font/Gilroy-Bold.woff") format("woff");
+	url("../fonts/Gilroy-Bold.eot"),
+	url("../fonts/Gilroy-Bold.ttf") format("truetype"),
+	url("../fonts/Gilroy-Bold.svg") format("svg"),
+	url("../fonts/Gilroy-Bold.eot") format("embedded-opentype"),
+	url("../fonts/Gilroy-Bold.woff2") format("woff2"),
+	url("../fonts/Gilroy-Bold.woff") format("woff");
 }
 @font-face {
 	font-family: 'Gilroy';
@@ -17,12 +17,12 @@
 	font-weight: 500;
 	font-display: swap;
 	src: local(''),
-	url("../font/Gilroy-Medium.eot"),
-	url("../font/Gilroy-Medium.ttf") format("truetype"),
-	url("../font/Gilroy-Medium.svg") format("svg"),
-	url("../font/Gilroy-Medium.eot") format("embedded-opentype"),
-	url("../font/Gilroy-Medium.woff2") format("woff2"),
-	url("../font/Gilroy-Medium.woff") format("woff");
+	url("../fonts/Gilroy-Medium.eot"),
+	url("../fonts/Gilroy-Medium.ttf") format("truetype"),
+	url("../fonts/Gilroy-Medium.svg") format("svg"),
+	url("../fonts/Gilroy-Medium.eot") format("embedded-opentype"),
+	url("../fonts/Gilroy-Medium.woff2") format("woff2"),
+	url("../fonts/Gilroy-Medium.woff") format("woff");
 }
 @font-face {
 	font-family: 'Gilroy';
@@ -30,12 +30,12 @@
 	font-weight: 400;
 	font-display: swap;
 	src: local(''),
-	url("../font/Gilroy-Regular.eot"),
-	url("../font/Gilroy-Regular.ttf") format("truetype"),
-	url("../font/Gilroy-Regular.svg") format("svg"),
-	url("../font/Gilroy-Regular.eot") format("embedded-opentype"),
-	url("../font/Gilroy-Regular.woff2") format("woff2"),
-	url("../font/Gilroy-Regular.woff") format("woff");
+	url("../fonts/Gilroy-Regular.eot"),
+	url("../fonts/Gilroy-Regular.ttf") format("truetype"),
+	url("../fonts/Gilroy-Regular.svg") format("svg"),
+	url("../fonts/Gilroy-Regular.eot") format("embedded-opentype"),
+	url("../fonts/Gilroy-Regular.woff2") format("woff2"),
+	url("../fonts/Gilroy-Regular.woff") format("woff");
 }
 @font-face {
 	font-family: 'Nordin';
@@ -43,12 +43,12 @@
 	font-weight: 400;
 	font-display: swap;
 	src: local(''),
-	url("../font/Nordin-Regular.eot"),
-	url("../font/Nordin-Regular.ttf") format("truetype"),
-	url("../font/Nordin-Regular.svg") format("svg"),
-	url("../font/Nordin-Regular.eot") format("embedded-opentype"),
-	url("../font/Nordin-Regular.woff2") format("woff2"),
-	url("../font/Nordin-Regular.woff") format("woff");
+	url("../fonts/Nordin-Regular.eot"),
+	url("../fonts/Nordin-Regular.ttf") format("truetype"),
+	url("../fonts/Nordin-Regular.svg") format("svg"),
+	url("../fonts/Nordin-Regular.eot") format("embedded-opentype"),
+	url("../fonts/Nordin-Regular.woff2") format("woff2"),
+	url("../fonts/Nordin-Regular.woff") format("woff");
 }
 @font-face {
 	font-family: 'Sfprodisplay';
@@ -56,12 +56,12 @@
 	font-weight: 700;
 	font-display: swap;
 	src: local(''),
-	url("../font/SFProDisplay-Bold.eot"),
-	url("../font/SFProDisplay-Bold.ttf") format("truetype"),
-	url("../font/SFProDisplay-Bold.svg") format("svg"),
-	url("../font/SFProDisplay-Bold.eot") format("embedded-opentype"),
-	url("../font/SFProDisplay-Bold.woff2") format("woff2"),
-	url("../font/SFProDisplay-Bold.woff") format("woff");
+	url("../fonts/SFProDisplay-Bold.eot"),
+	url("../fonts/SFProDisplay-Bold.ttf") format("truetype"),
+	url("../fonts/SFProDisplay-Bold.svg") format("svg"),
+	url("../fonts/SFProDisplay-Bold.eot") format("embedded-opentype"),
+	url("../fonts/SFProDisplay-Bold.woff2") format("woff2"),
+	url("../fonts/SFProDisplay-Bold.woff") format("woff");
 }
 @font-face {
 	font-family: 'Sfprodisplay';
@@ -69,12 +69,12 @@
 	font-weight: 300;
 	font-display: swap;
 	src: local(''),
-	url("../font/SFProDisplay-Light.eot"),
-	url("../font/SFProDisplay-Light.ttf") format("truetype"),
-	url("../font/SFProDisplay-Light.svg") format("svg"),
-	url("../font/SFProDisplay-Light.eot") format("embedded-opentype"),
-	url("../font/SFProDisplay-Light.woff2") format("woff2"),
-	url("../font/SFProDisplay-Light.woff") format("woff");
+	url("../fonts/SFProDisplay-Light.eot"),
+	url("../fonts/SFProDisplay-Light.ttf") format("truetype"),
+	url("../fonts/SFProDisplay-Light.svg") format("svg"),
+	url("../fonts/SFProDisplay-Light.eot") format("embedded-opentype"),
+	url("../fonts/SFProDisplay-Light.woff2") format("woff2"),
+	url("../fonts/SFProDisplay-Light.woff") format("woff");
 }
 @font-face {
 	font-family: 'Sfprodisplay';
@@ -82,12 +82,12 @@
 	font-weight: 400;
 	font-display: swap;
 	src: local(''),
-	url("../font/SFProDisplay-Regular.eot"),
-	url("../font/SFProDisplay-Regular.ttf") format("truetype"),
-	url("../font/SFProDisplay-Regular.svg") format("svg"),
-	url("../font/SFProDisplay-Regular.eot") format("embedded-opentype"),
-	url("../font/SFProDisplay-Regular.woff2") format("woff2"),
-	url("../font/SFProDisplay-Regular.woff") format("woff");
+	url("../fonts/SFProDisplay-Regular.eot"),
+	url("../fonts/SFProDisplay-Regular.ttf") format("truetype"),
+	url("../fonts/SFProDisplay-Regular.svg") format("svg"),
+	url("../fonts/SFProDisplay-Regular.eot") format("embedded-opentype"),
+	url("../fonts/SFProDisplay-Regular.woff2") format("woff2"),
+	url("../fonts/SFProDisplay-Regular.woff") format("woff");
 }
 @font-face {
 	font-family: 'Sfprodisplay';
@@ -95,10 +95,10 @@
 	font-weight: 100;
 	font-display: swap;
 	src: local(''),
-	url("../font/SFProDisplay-Thin.eot"),
-	url("../font/SFProDisplay-Thin.ttf") format("truetype"),
-	url("../font/SFProDisplay-Thin.svg") format("svg"),
-	url("../font/SFProDisplay-Thin.eot") format("embedded-opentype"),
-	url("../font/SFProDisplay-Thin.woff2") format("woff2"),
-	url("../font/SFProDisplay-Thin.woff") format("woff");
+	url("../fonts/SFProDisplay-Thin.eot"),
+	url("../fonts/SFProDisplay-Thin.ttf") format("truetype"),
+	url("../fonts/SFProDisplay-Thin.svg") format("svg"),
+	url("../fonts/SFProDisplay-Thin.eot") format("embedded-opentype"),
+	url("../fonts/SFProDisplay-Thin.woff2") format("woff2"),
+	url("../fonts/SFProDisplay-Thin.woff") format("woff");
 }

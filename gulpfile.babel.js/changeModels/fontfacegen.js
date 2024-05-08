@@ -158,7 +158,7 @@ module.exports = (options = {}) => {
                 // create @font-face fonts.css with generated fontFamily, fontStyle, fontWeight, fileName
                 fs.appendFile(
                     fontFaceFile,
-                    `@font-face {\n\tfont-family: '${fontFamily}';\n\tfont-style: ${fontStyle};\n\tfont-weight: ${fontWeight};\n\tfont-display: swap;\n\tsrc: local(''),\n\turl("../font/${fileName}.eot"),\n\turl("../font/${fileName}.ttf") format("truetype"),\n\turl("../font/${fileName}.svg") format("svg"),\n\turl("../font/${fileName}.eot") format("embedded-opentype"),\n\turl("../font/${fileName}.woff2") format("woff2"),\n\turl("../font/${fileName}.woff") format("woff");\n}\n`,
+                    `@font-face {\n\tfont-family: '${fontFamily}';\n\tfont-style: ${fontStyle};\n\tfont-weight: ${fontWeight};\n\tfont-display: swap;\n\tsrc: local(''),\n\turl("../fonts/${fileName}.eot"),\n\turl("../fonts/${fileName}.ttf") format("truetype"),\n\turl("../fonts/${fileName}.svg") format("svg"),\n\turl("../fonts/${fileName}.eot") format("embedded-opentype"),\n\turl("../fonts/${fileName}.woff2") format("woff2"),\n\turl("../fonts/${fileName}.woff") format("woff");\n}\n`,
                     (err) => {
                         if (err) {
                             console.log(`Error while creating ${fontFaceFile}`);
